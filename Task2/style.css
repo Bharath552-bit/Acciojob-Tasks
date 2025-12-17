@@ -1,0 +1,69 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body{
+    background-color: grey;
+}
+
+.search{
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 20%;
+    color: white;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icons button{
+    background-color: red;
+    border: none;
+    border-radius: 15%;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.cards{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin: 20px;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+}
+
+.firstrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10%;
+    padding: 10px;
+    color: white;
+}
+
+.secondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
