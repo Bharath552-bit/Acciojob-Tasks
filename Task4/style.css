@@ -1,0 +1,187 @@
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-logo{
+    padding-left: 40px;
+}
+
+.app-download{
+    background-image: url(images/Rectangle\ 48.png);
+    height: 90vh;
+    background-repeat: round;
+}
+
+.app-container{
+    height: 170vh;
+}
+
+.app-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    color: white;
+    padding-top: 50px;
+}
+
+.app-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.app-buttons button{
+    height: 7vh;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.app-image1{
+    width: 100%;
+}
+
+.app-image2{
+    position:relative;
+    left: 380px;
+    bottom: 150px;
+}
+
+.app-images{
+    height: 180vh;
+}
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width:60%;
+}
+
+.working{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.explore{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+.account-text h2{
+    color: orangered;
+}
+
+.explore-text h2{
+    color: orangered;
+}
+
+.checkout-text h2{
+    color: orangered;
+}
+
+.ending{
+    background-image: url(images/Rectangle\ 47.png);
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: round;
+}
+
+.ending-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vh;
+    align-items: center;
+    color: white;
+}
+
+.ending-buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ending-buttons button{
+    height: 7vh;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.playstore{
+    border: none;
+    background-color: orangered;
+}
+
+.appstore{
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.foot-logos{
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    width: 15%;
+}
+
